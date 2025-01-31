@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "com.ood.mobile",
+    "package_name": "com.ood.mobile",
+    "sha256_cert_fingerprints":
+    ["87:E8:CF:9E:04:1C:12:33:39:F7:6B:AB:62:94:AC:1C:FF:45:B0:8F:8E:76:69:46:41:4F:EA:E0:4F:6F:8F:2F"]
+  }
+}]
