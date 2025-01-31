@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOD - Your Expiry Tracker</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        main {
+            padding: 40px;
+            flex: 1;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .feature-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .perfect-for {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .perfect-for-item {
+            flex: 1 0 200px;
+            text-align: center;
+            max-width: 220px;
+        }
+
+        .perfect-for-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            main {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .perfect-for {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/oodLogo.png" alt="OOD Logo" class="logo">
+    </header>
+
+    <main>
+        <section>
+            <h1>Welcome to OOD – Your Expiry Tracker</h1>
+            <p>Never Let Expiry Dates Catch You Off Guard!</p>
+            <p>OOD helps you track expiration dates for groceries, medications, cosmetics, and more—ensuring you use items before they expire.</p>
+        </section>
+
+        <section>
+            <h2>Why Choose OOD?</h2>
+            <ul class="feature-list">
+                <li><strong>🌟 Stay Organized & Reduce Waste</strong> – Keep track of all your perishable and non-perishable items in one place.</li>
+                <li><strong>📅 Smart Expiry Alerts</strong> – Receive timely notifications before items go bad.</li>
+                <li><strong>🔍 Easy Scanning & Logging</strong> – Add items quickly by scanning barcodes or taking photos.</li>
+                <li><strong>🔄 Sync Across Devices</strong> – Access your expiry tracker from any device.</li>
+                <li><strong>🛒 Pantry & Inventory Management</strong> – Know what you have at a glance!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Perfect for Everyone</h2>
+
+            <div class="perfect-for">
+                <div class="perfect-for-item">
+                    <img src="https://cdn-icons-png.freepik.com/512/9200/9200861.png" alt="Home Users">
+                    <h3>Home Users</h3>
+                    <p>Avoid food waste and keep your kitchen stocked with fresh ingredients.</p>
+                </div>
+                <div class="perfect-for-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1685/1685844.png" alt="Healthcare">
+                    <h3>Healthcare & Medications</h3>
+                    <p>Ensure medications are taken before they expire to stay safe and healthy.</p>
+                </div>
+                <div class="perfect-for-item">
+                    <img src="https://cdn-icons-png.freepik.com/512/9725/9725546.png" alt="Businesses">
+                    <h3>Businesses & Retailers</h3>
+                    <p>Manage inventory efficiently and reduce losses from expired stock.</p>
+                </div>
+                <div class="perfect-for-item">
+                    <img src="https://cdn-icons-png.flaticon.com/256/5802/5802200.png" alt="Cosmetics">
+                    <h3>Beauty & Cosmetics</h3>
+                    <p>Keep track of skincare, makeup, and hygiene products.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Getting Started is Easy!</h2>
+            <ul>
+                <li><strong>📥 Download OOD</strong> – Install the app and sign up.</li>
+                <li><strong>➕ Add Your Items</strong> – Scan, snap, or type in expiry dates.</li>
+                <li><strong>🔔 Receive Alerts & Take Action</strong> – Use items before they expire.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OOD App. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
