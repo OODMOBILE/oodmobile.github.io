@@ -5,5 +5,17 @@
     "package_name": "com.ood.mobile",
     "sha256_cert_fingerprints":
     ["BF:60:EC:08:FA:AC:CB:16:1C:02:6E:7C:2D:E0:2A:CE:81:1A:69:01:FE:BC:50:97:9F:67:C3:9C:58:63:0D:87"]
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ood.mobile",
+      "sha256_cert_fingerprints": [
+        "BF:60:EC:08:FA:AC:CB:16:1C:02:6E:7C:2D:E0:2A:CE:81:1A:69:01:FE:BC:50:97:9F:67:C3:9C:58:63:0D:87"
+      ]
+    }
   }
 }]
